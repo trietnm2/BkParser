@@ -25,7 +25,6 @@ class BKParser:
                 # https://universaldependencies.org/format.html
                 # id, form, lemma, uPOSTag, xPOSTag, feats, head, depRel, deps, misc
                 line = token.toString()
-                print(line)
                 if line == '':
                     continue
                 result.append(line.split("\t"))
